@@ -1,6 +1,6 @@
 # elevate-labs-task1-data-cleaning
 
-This repository contains Task 1 of my AIML Internship project.  
+This repository contains Task 1 of my AIML Internship by Elevate Labs.  
 The focus of this task is on cleaning, preprocessing, and preparing the Titanic dataset for machine learning models, including training baseline ML models.
 
 ## Repository Structure
