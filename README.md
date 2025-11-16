@@ -68,19 +68,7 @@ All model files are stored inside the `outputs/` directory.
 
 ## 🚀 How to Run This Project
 
-### Preprocessing:
-python preprocessing.py
-
-shell
-Copy code
-
-### Training:
-python training.py
-
-markdown
-Copy code
-
-### Or open in Colab:
+**Open in Colab**
 - `preprocessing.ipynb`  
 - `training.ipynb`  
 
