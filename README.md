@@ -8,9 +8,7 @@ The focus of this task is on cleaning, preprocessing, and preparing the Titanic 
 ├── tit-dataset.csv                # Raw dataset (uploaded from Kaggle)  
 ├── processed_titanic.csv          # Fully cleaned dataset generated after preprocessing  
 ├── preprocessing.ipynb            # Notebook containing preprocessing steps  
-├── training.ipynb                 # Notebook for training ML models  
-├── preprocessing.py               # Script version of preprocessing (optional)  
-├── training.py                    # Script version of training (optional)  
+├── training.ipynb                 # Notebook for training ML models    
 ├── outputs/                       # Folder storing all saved trained models  
 │   ├── model_lr.joblib            # Logistic Regression model  
 │   ├── model_rf.joblib            # Random Forest model  
