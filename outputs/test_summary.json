@@ -1,0 +1,71 @@
+{
+  "lr_val": {
+    "accuracy": 0.8134328358208955,
+    "precision": 0.7213114754098361,
+    "recall": 0.8461538461538461,
+    "f1": 0.7787610619469026,
+    "confusion_matrix": [
+      [
+        65,
+        17
+      ],
+      [
+        8,
+        44
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.89      0.79      0.84        82\n           1       0.72      0.85      0.78        52\n\n    accuracy                           0.81       134\n   macro avg       0.81      0.82      0.81       134\nweighted avg       0.82      0.81      0.82       134\n"
+  },
+  "lr_test": {
+    "accuracy": 0.8059701492537313,
+    "precision": 0.7450980392156863,
+    "recall": 0.7450980392156863,
+    "f1": 0.7450980392156863,
+    "confusion_matrix": [
+      [
+        70,
+        13
+      ],
+      [
+        13,
+        38
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.84      0.84      0.84        83\n           1       0.75      0.75      0.75        51\n\n    accuracy                           0.81       134\n   macro avg       0.79      0.79      0.79       134\nweighted avg       0.81      0.81      0.81       134\n"
+  },
+  "rf_val": {
+    "accuracy": 0.8432835820895522,
+    "precision": 0.7627118644067796,
+    "recall": 0.8653846153846154,
+    "f1": 0.8108108108108109,
+    "confusion_matrix": [
+      [
+        68,
+        14
+      ],
+      [
+        7,
+        45
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.91      0.83      0.87        82\n           1       0.76      0.87      0.81        52\n\n    accuracy                           0.84       134\n   macro avg       0.83      0.85      0.84       134\nweighted avg       0.85      0.84      0.84       134\n"
+  },
+  "rf_test": {
+    "accuracy": 0.746268656716418,
+    "precision": 0.660377358490566,
+    "recall": 0.6862745098039216,
+    "f1": 0.6730769230769231,
+    "confusion_matrix": [
+      [
+        65,
+        18
+      ],
+      [
+        16,
+        35
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.80      0.78      0.79        83\n           1       0.66      0.69      0.67        51\n\n    accuracy                           0.75       134\n   macro avg       0.73      0.73      0.73       134\nweighted avg       0.75      0.75      0.75       134\n"
+  },
+  "nn_error": "No module named 'tensorflow'"
+}
