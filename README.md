@@ -7,8 +7,8 @@ The focus of this task is on cleaning, preprocessing, and preparing the Titanic 
 
 ├── tit-dataset.csv                # Raw dataset (uploaded from Kaggle)  
 ├── processed_titanic.csv          # Fully cleaned dataset generated after preprocessing  
-├── preprocessing.ipynb            # Notebook containing preprocessing steps  
-├── training.ipynb                 # Notebook for training ML models    
+├── preprocessing.py               # Script version of preprocessing
+├── training.py                    # Script version of training  
 ├── outputs/                       # Folder storing all saved trained models  
 │   ├── model_lr.joblib            # Logistic Regression model  
 │   ├── model_rf.joblib            # Random Forest model  
@@ -68,9 +68,11 @@ All model files are stored inside the `outputs/` directory.
 
 ## 🚀 How to Run This Project
 
-**Open in Colab**
-- `preprocessing.ipynb`  
-- `training.ipynb`  
+### Preprocessing:
+python preprocessing.py
+
+### Training:
+python training.py
 
 Run all cells sequentially.
 
